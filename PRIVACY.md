@@ -1,6 +1,6 @@
 # Kugel privacy policy
 
-Effective date: December 10, 2026
+Effective date: November 21, 2026
 
 Kugel turns your photos into snow globes. It has no accounts, no ads, no analytics and no tracking. It contains no third-party code that collects data. This policy explains what Kugel keeps, where it keeps it, and who can see it.
 
