@@ -1,42 +1,49 @@
 # Kugel privacy policy
 
-Effective date: November 23, 2026
+Effective date: November 24, 2026
 
-Kugel turns your photos into snow globes. It has no accounts, no ads, no analytics and no tracking. It contains no third-party code that collects data. This policy explains what Kugel keeps, where it keeps it, and who can see it.
+Kugel turns your photos into snow globes. Kugel has no accounts, ads, analytics or tracking. This policy explains what Kugel keeps, where it keeps it, and who can see it.
 
 ## On your iPhone
 
-Your globes stay on your iPhone: the photo you took, the cut-out of your subject, how the globe looks, its engraving and the day you made it. So do the gifts you keep, the name you enter when you share a gift, and the senders you block.
+Kugel keeps the globes you make and the gifts you save on your iPhone. Your own globes can include the original photo, the cutout of your subject, the globe’s design and engraving, and the date you made it. Your gift-sending name and the list of senders you block are kept on the device.
 
-Kugel shares some of this with its widget and its App Clip on the same iPhone, through a storage area only Kugel can use. The widget shows pictures of your globes. The App Clip passes a gift you saved over to the app once you install it.
+The camera is used only while you’re taking a picture. Finding the subject in your photo happens on your iPhone.
 
-The camera is used only while you are taking a picture. Finding the subject in your photo happens on your iPhone.
+Kugel uses shared storage on your iPhone so the widget can show pictures of your globes. The App Clip keeps the link for an unfinished gift in the device’s Keychain so you can return to it. When you save a gift in the Clip, shared storage holds its encrypted contents, gift details and a reference to a temporary Keychain key. The full app removes that temporary key when it finishes importing or discarding the pending gift. The full app stores its saved gift keys and sent links in the device’s Keychain. Those Keychain items stay on that device.
 
-If you delete Kugel, everything it kept on your iPhone is deleted with it.
+## Your private iCloud
 
-## Your globes in iCloud
+When you’re signed in to iCloud, Kugel syncs your own globes and photos, your saved gifts and their images, the names and IDs of their senders, and your Sent gifts list. Kugel also syncs a history of when you made each globe, including its ID and creation date. This data is stored in your private iCloud database. We can’t read it.
 
-If you are signed in to iCloud, Kugel keeps your globes in your private iCloud database, so they appear on your other devices. Apple stores this data in your iCloud account. We can't read it.
+## Gifts you send
 
-## Gifts
+To send a gift, you need to be signed in to iCloud. Kugel locks the gift on your iPhone before uploading it. The gift contains the globe’s design and engraving, the image you see in the globe, the name you entered, and a random sender ID made on your device. The image can show the scene, including its background, or just a cutout of your subject. The separate original photo file stays out of the gift.
 
-When you send a globe as a gift, Kugel locks it on your iPhone before anything leaves it. A gift holds the globe's look, the cut-out of your subject, the name you entered when sharing, and a random sender ID. Kugel creates the sender ID on your iPhone. It lets your friends tell two people with the same name apart, and it lets them block you. It is not linked to your Apple Account.
+Apple stores the locked gift in Kugel’s public iCloud database. The gift record also contains a gift ID, a creation date, a format version and an ID for the Apple Account that sent it. The account ID is specific to Kugel. We can see it on the record, and the app and App Clip can read it when fetching a gift. iCloud uses it to identify who can take the gift back. Kugel uses it to recognize gifts from the same sender so a block also works on their later gifts. The ID doesn’t reveal your Apple Account name or email address to us.
 
-The locked gift is stored in Kugel's public iCloud database, which Apple runs for us. The key that unlocks it is only in the link you send. It sits after the `#` sign in the link, a part that browsers and web servers don't receive. Without the link, neither we nor anyone else can open the gift. Anyone you give the link to can open it, so share it only with people you trust.
+The link you share contains the key that opens the gift. The key is after the `#` sign and is kept out of the public gift record. Anyone with the full link can open the gift while it’s available. The app you use to send the link handles it under its own privacy policy.
 
-To let only you take a gift back, iCloud records which account created it, as an ID that is specific to Kugel. We don't see your name, email address or Apple Account details.
-
-Sharing the same globe again uses its existing link while it is available on your device. Gifts expire 30 days after the link was first created. After that, the link no longer opens the gift, and Kugel deletes your expired gifts from iCloud the next time you open it. In Settings → Sent gifts, choose Unsend to delete the gift from iCloud. Everyone who received that link loses access to it. A copy someone already saved stays with them.
-
-You send the link through an app of your choice, such as Messages or Mail. That app handles the link under its own privacy policy.
+Your gift link stops opening in Kugel 30 days after the gift was created. The locked gift and its public record, including the account ID, can stay in iCloud longer. Kugel attempts to remove expired gifts when the sender opens the app. Deletion depends on the app finding the gift in Sent gifts and successfully reaching iCloud.
 
 ## Gifts you receive
 
-When you open a gift, Kugel downloads it and unlocks it on your iPhone with the key from the link. If you keep it, it stays on your iPhone with your own globes. If you block a sender, Kugel remembers their sender ID on your iPhone and doesn't open their future gifts.
+Kugel downloads a gift and opens it on your iPhone with the key from the link. When you save it, the copy can sync to your other devices through your private iCloud database. If you block a sender, Kugel remembers them on that device and stops opening their future gifts there. You can remove a block in Settings under Blocked senders.
 
 ## Reporting a gift
 
-If you report a gift, Kugel opens an email to us with the gift's ID and its key already filled in. You decide whether to send it. If you do, we use the key only to look at that gift and remove it from iCloud if it breaks the rules. We keep your email only as long as we need to handle the report.
+Kugel prepares an email with the gift ID and, if available on your device, the key that lets us open and see the gift. You decide whether to send it. If you send the report, we receive your email address and what you include in the message. We use those details and any gift content we open to respond to the report and remove gifts that break the rules.
+
+A report with just the ID lets us find the record. If we need to see the gift, we’ll ask you to reply privately with the original link. Keep the link and key out of public posts. We keep the report and any gift content we access only as long as we need them to handle the report and follow up.
+
+## Deleting your data
+
+- **Delete a globe from your Shelf** to remove it from Kugel and, when iCloud sync completes, from your other synced devices. Kugel removes images that no other saved globe or gift uses. The creation ID and date stay in your private creation history. A gift you already sent stays available until it expires or you unsend it.
+- **Delete a saved gift from Gifts** to remove your copy and its unused images from Kugel. That deletion syncs through private iCloud. Kugel also removes the saved key from the Keychain on the device where you delete the gift if no other copy there uses it. The sender’s gift link and copies other people saved stay available according to their own settings and expiry.
+- **Unsend a gift in Settings under Sent gifts** to remove the public iCloud record, including the locked gift and creator ID. Once iCloud removes the record, the link stops working. Kugel then removes the Sent gifts entry, which syncs through your private iCloud, and the stored link on the device you used to unsend. Copies the recipients already saved stay with them.
+- **Delete the app** to remove it from your iPhone. Your private iCloud records and public gifts can remain, and iOS may keep device-only Keychain items after the app is removed. Photos, videos and links you exported or shared are managed in the apps where you saved or sent them.
+
+To ask us to delete data we can access, such as a public gift you sent or a report email, write to [kugel@weichart.de](mailto:kugel@weichart.de). Include the gift ID if you have it, or tell us which report you mean. We may ask for details to confirm your request. You can manage your private iCloud data from your devices.
 
 ## Purchases
 
@@ -44,7 +51,7 @@ Purchases go through Apple. Kugel checks on your iPhone whether you have unlocke
 
 ## Children
 
-Kugel is not directed at children under 13, and we don't knowingly collect their information.
+Kugel is not directed at children under 13, and we don’t knowingly collect their information.
 
 ## Changes
 
